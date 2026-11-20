@@ -36,29 +36,24 @@ Every project follows the same six steps: **think it through → structure → p
 </p>
 <p align="center"><sub>These cards redraw themselves every 6 hours from my server's public status, through a GitHub Action in this repository.</sub></p>
 
-## What I build
+## What I do
 
-**Client websites** · five live sites for local businesses (a restaurant, a bike shop, a fresh-pasta caterer,
-a barbershop and a care organisation), hand-built and made to be found by Google and by AI assistants.
+| | |
+|---|---|
+| 🌐 **Websites that get found** | Hand-built, fast websites for businesses, made for Google and for the AI assistants people now ask instead. Structured data, clear facts, Core Web Vitals. |
+| 🔎 **Seen in AI answers** | I measure what AI assistants with web search say about a business, then fix what makes them leave it out, and check the result again. |
+| ⚙️ **Automations** | Work that repeats becomes a scheduled job, with checks before anything ships, spend caps where money is involved and a human yes where it matters. |
+| 🤖 **AI agents** | Teams of agents with one job each, the tools for that job and a budget, and a critic that checks the result and can send it back. |
+| ☁️ **Infrastructure** | The servers behind it all, built and run myself: Docker, monitoring and alerts, encrypted nightly backups, no open ports. |
+| 📊 **Data** | Search Console, analytics and logs decide what to improve next, not opinions. |
 
-**BEACON** · an AI-visibility and SEO engine for my client sites. It checks what AI assistants answer about
-each business, follows Google rankings and Search Console, and suggests fixes that are checked against the facts.
+## Some of what I've built
 
-**Video pipeline** · short videos from idea to post: script, voice, my own animation engines and automatic
-quality checks. Every morning my server reads the numbers, plans the day and publishes. **8.4 million views
-and 23,000+ followers** so far on Instagram, TikTok, YouTube and Facebook.
-
-**My own cloud** · a home server that runs my files, automations, analytics, an AI assistant and my portfolio,
-with monitoring, alerts and nightly encrypted backups, behind a tunnel with no open ports.
-→ [homelab](https://github.com/stevensitosava/homelab)
-
-**AI agents** · OCTOPUS, a command centre where each AI agent has one role · AdFlow, an AI studio that turns
-product photos into image and video ads · AI Agency, a researcher, a copywriter and a critic that check each
-other's work → [ai-agency](https://github.com/stevensitosava/ai-agency)
-
-**Products** · [Archivos Oscuros](https://www.archivososcuros.com), my own ebook store · Try a Haircut, an AI
-haircut preview, live and paid at a barbershop · Clip Studio, long videos into subtitled vertical clips ·
-[my portfolio](https://portfolio.stevensawarin.com), served from my own server with live data
+- **BEACON**, an AI-visibility and SEO engine for my client sites
+- **A video pipeline** that writes, animates, checks and posts short videos by itself (the numbers are in the card above)
+- **[My own cloud](https://github.com/stevensitosava/homelab)**, a 2020 laptop that runs 19 containers around the clock
+- **OCTOPUS**, **AdFlow** and **[AI Agency](https://github.com/stevensitosava/ai-agency)**, systems of AI agents
+- **[Archivos Oscuros](https://www.archivososcuros.com)**, **Try a Haircut** and **Clip Studio**, products of my own
 
 ## Tech stack
 
