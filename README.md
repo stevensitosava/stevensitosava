@@ -3,11 +3,11 @@
 </p>
 
 <p align="center">
-  <a href="https://portfolio.stevensawarin.com"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=520&lines=Software+%26+AI+Engineer;Websites+that+get+found;Automations+and+AI+agents;My+own+cloud%2C+running+24%2F7" alt="Software & AI Engineer" /></a>
+  <a href="https://www.stevensawarin.com"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=520&lines=Software+%26+AI+Engineer;Websites+that+get+found;Automations+and+AI+agents;My+own+cloud%2C+running+24%2F7" alt="Software & AI Engineer" /></a>
 </p>
 
 <p align="center">
-  <a href="https://portfolio.stevensawarin.com"><img src="https://img.shields.io/badge/Portfolio-portfolio.stevensawarin.com-111827?style=for-the-badge" alt="Portfolio"></a>
+  <a href="https://www.stevensawarin.com"><img src="https://img.shields.io/badge/Website-stevensawarin.com-111827?style=for-the-badge" alt="Website"></a>
   <a href="https://www.linkedin.com/in/steven-savarin/"><img src="https://img.shields.io/badge/LinkedIn-steven--savarin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:sawarinsteven@gmail.com"><img src="https://img.shields.io/badge/Email-sawarinsteven%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
@@ -52,7 +52,7 @@ Every project follows the same six steps: **think it through → structure → p
 - **BEACON**, an AI-visibility and SEO engine for my client sites
 - **A video pipeline** that writes, animates, checks and posts short videos by itself (the numbers are in the card above)
 - **[My own cloud](https://github.com/stevensitosava/homelab)**, a 2020 laptop that runs 19 containers around the clock
-- **OCTOPUS**, **AdFlow** and **[AI Agency](https://github.com/stevensitosava/ai-agency)**, systems of AI agents
+- **OCTOPUS** and **AdFlow**, systems of AI agents
 - **[Archivos Oscuros](https://www.archivososcuros.com)**, **Try a Haircut** and **Clip Studio**, products of my own
 
 ## Tech stack

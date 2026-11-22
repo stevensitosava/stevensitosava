@@ -1,4 +1,4 @@
-# Refreshes the README's live cards (cards/*.svg) from the public status of portfolio.stevensawarin.com,
+# Refreshes the README's live cards (cards/*.svg) from the public status of www.stevensawarin.com,
 name: Live cards
 
 on:

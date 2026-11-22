@@ -1,4 +1,4 @@
-// cards.mjs — draws the animated cards of the profile README from the live, public status of portfolio.stevensawarin.com:
+// cards.mjs — draws the animated cards of the profile README from the live, public status of www.stevensawarin.com:
 //   cards/videos.svg   views and followers of my videos (rolling counters), the total views day by day, the views per platform
 //   cards/cloud.svg    my home server right now: health checks, containers, uptime, power, last backup, scheduled jobs
 //   cards/clients.svg  the client sites' Google impressions since launch day, as shapes only (no numbers), drawn in
@@ -6,7 +6,7 @@
 // The animations are CSS inside the SVG, so they play in the README image as well.
 import { writeFileSync, readFileSync, mkdirSync, existsSync } from 'node:fs';
 
-const SRC = process.env.STATUS_URL || 'https://portfolio.stevensawarin.com/status.json';
+const SRC = process.env.STATUS_URL || 'https://www.stevensawarin.com/status.json';
 const S = JSON.parse(process.argv[2] ? readFileSync(process.argv[2], 'utf8') : await (await fetch(SRC + '?t=' + Date.now(), { headers: { 'User-Agent': 'profile-cards' } })).text());
 mkdirSync('cards', { recursive: true });
 
