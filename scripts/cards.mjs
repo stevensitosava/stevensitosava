@@ -71,7 +71,8 @@ ${bars}
 
 // ---- cloud
 {
-  const W = 495, H = 300, up = (S.generated - S.boot) / 86400, jobs = S.jobs || [];
+  // status.json gives whole days since 22 Nov 2026 (up_days); the exact boot time is no longer public
+  const W = 495, H = 300, up = S.up_days ?? (S.boot ? (S.generated - S.boot) / 86400 : 0), jobs = S.jobs || [];
   const tiles = [[`${S.health.ok}/${S.health.total}`, 'health checks passing'], [`${S.containers.running}/${S.containers.total}`, 'containers running'], [`${Math.floor(up)} days`, 'up without a restart'], [`${S.power_w.toFixed(1)} W`, 'at the wall (estimate)']];
   const tl = tiles.map(([big, small], i) => { const x = 24 + (i % 2) * 230, y = 52 + Math.floor(i / 2) * 60;
     return `<g class="in" style="animation-delay:${0.15 + i * 0.12}s"><text x="${x}" y="${y + 22}" class="mono" font-size="26" font-weight="700" fill="${i < 2 ? C.green : C.text}">${esc(big)}</text><text x="${x}" y="${y + 42}" class="m">${esc(small)}</text></g>`; }).join('');
